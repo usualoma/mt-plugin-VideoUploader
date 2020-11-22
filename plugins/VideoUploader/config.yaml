@@ -1,0 +1,23 @@
+id: VideoUploader
+name: VideoUploader
+version: 0.0.1
+
+description: <__trans phrase="This plugin enables you to convert movie before uploading by ffmpeg.">
+author_name: Taku Amano
+author_link: http://blog.taaas.jp/
+plugin_link: http://blog.taaas.jp/mt/mt-plugin-VideoUploader/
+
+l10n_lexicon:
+  ja:
+    This plugin enables you to convert movie before uploading by ffmpeg.: "ffmpegを利用して、動画のアップロードをサポートします。"
+    Transcode Video: "動画の変換"
+
+object_types:
+  asset.video:
+    video_uploader_width: integer meta
+    video_uploader_height: integer meta
+
+callbacks:
+  MT::App::CMS::template_param.async_asset_upload: $VideoUploader::MT::Plugin::VideoUploader::template_param_async_asset_upload
+  MT::App::CMS::cms_pre_save.asset: $VideoUploader::MT::Plugin::VideoUploader::cms_pre_save_asset
+  MT::App::CMS::init_app: $VideoUploader::MT::Plugin::VideoUploader::init_app
