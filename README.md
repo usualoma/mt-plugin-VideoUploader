@@ -9,7 +9,7 @@ This plugin enables you to convert movie before uploading by ffmpeg.
 
 ## Demo
 
-https://youtu.be/FzmHe0Xn3cc
+https://youtu.be/SSweZt4KtGo
 
 ## Installation
 
