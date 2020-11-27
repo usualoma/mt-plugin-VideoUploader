@@ -5,7 +5,7 @@ This plugin enables you to convert movie before uploading by ffmpeg.
 
 ## Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/usualoma/mt-plugin-VideoUploader/master/artwork/screenshot.jpg)
+![Screenshot](https://raw.githubusercontent.com/usualoma/mt-plugin-VideoUploader/main/artwork/screenshot.jpg)
 
 ## Demo
 
